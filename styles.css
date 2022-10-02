@@ -1,0 +1,122 @@
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+h1 {
+    font-size: 562.5%;
+    font-family: 'Sacramento', cursive;
+    margin: 40px auto 0 auto;
+    color: #66bfbf;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #66bfbf;
+}
+h3 {
+    color: #113393;
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    width: 4%;
+    border: 6px dotted #eaf6f6;
+    border-bottom: none;
+    margin: 100px auto;
+}
+.top-container {
+    background: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud {
+    position: absolute;
+    top: 60px;
+    right: 350px;
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 350px;
+}
+.middle-container {
+    margin-top: 100px;
+}
+.middle-container .profile img {
+    height: 150px;
+    border-radius: 1000px;
+}
+.profile {
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+.profile h2 {
+    margin: 40px auto;
+}
+.skill-row {
+    width: 50%;
+    margin: 50px auto 120px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row img {
+    width: 25%;
+} 
+.code-img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.ham-img {
+    float: right;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.contact-me {
+    margin: 0 auto 100px auto;
+    width: 35%;
+    line-height: 2.5;
+}
+.contact-me p {
+    margin-bottom: 100px;
+}
+.contact-me .btn {
+    background: rgb(102, 191, 191);
+    color: #eaf6f6;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.contact-me .btn:hover {
+    background: rgba(102, 191, 191, 0.8);
+}
+.bottom-container {
+    padding: 35px;
+    background: #66bfbf;
+}
+.bottom-container p {
+    color: #eaf6f6;
+    margin-top: 50px;
+}
+.bottom-container a {
+    display: inline-block;
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #11999e;
+}
+.bottom-container a:hover {
+    color: #eaf6f6;
+}
+.bottom-container a:active {
+    color: #11999e; 
+    background: #eaf6f6;
+}
